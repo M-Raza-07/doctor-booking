@@ -90,7 +90,7 @@ export const specialityData: Speciality[] = [
     },
 ]
 
-export interface Doctors {
+export interface Doctor {
     _id: string;
     name: string;
     image: string;
@@ -105,7 +105,7 @@ export interface Doctors {
     }
 }
 
-export const doctors = [
+export const doctors: Doctor[] = [
     {
         _id: 'doc1',
         name: 'Dr. Richard James',
